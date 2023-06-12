@@ -14,6 +14,7 @@ string[] staniceB =
         "Národní třída", "Můstek", "Náměstí Republiky", "FLorenc", "Křižíkova", "Invalidova", "Palmovka", "Českomoravská", "Vysočanská", "Kolbenova",
         "Hloubětín", "Rajská zahrada", "Černý Most"
     };
+
 string[] staniceC =
 {
         "Letňany", "Prosek", "Sřížkov", "Ládví", "Kobylisy", "nádraží Holešovice",
@@ -22,8 +23,9 @@ string[] staniceC =
         "Roztyly", "Chodov", "Opatov", "Háje "
 
     };
-string[] staniceD =
-{"možná někdy bude :)"};
+
+string[] StaniceD = { "Náměstí Míru", "Náměstí Bří Synků", "Olbrachtova", "Nádraží Krč", "Nemocnice Krč", "Nové Dvory", "Libuš", "Písnice", "Depo Písnice" };
 
 Console.WriteLine("Vyber metro, které chceš zobrazit:");
+Console.ReadLine();
 

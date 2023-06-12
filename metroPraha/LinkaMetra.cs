@@ -13,6 +13,6 @@ namespace metroPraha
         string LinkaB = "LinkaB";
         string LinkaC = "LinkaC";
         //string[] stanice = ;
-        //bool = aktivni;
+        bool = aktivni;
     }
 }
