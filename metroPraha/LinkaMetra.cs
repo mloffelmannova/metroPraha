@@ -16,7 +16,7 @@ namespace metroPraha
         public bool Aktivni { get; set; }
         public string Color { get; set; }
 
-        public void VypisVsechnyStanice()
+    public void VypisVsechnyStanice()
         {
             if (Stanice.Length > 0)
             {
@@ -26,7 +26,7 @@ namespace metroPraha
                 }
             }
         }
-        public void VypisPrvniPosledni()
+    public void VypisPrvniPosledni()
      {
         if(Stanice.Length >= 2)
        {
@@ -35,7 +35,7 @@ namespace metroPraha
         }
     }
 
-        public void NastavLinku()
+    public void NastavLinku()
     {
         if(Color == "zelená")
     {
@@ -58,7 +58,6 @@ namespace metroPraha
         public void CasCesty()
         {
             VypisVsechnyStanice();
-            Console.WriteLine("************");
             Console.WriteLine("Vyber 1. stanici");
             string prvniStanice = Console.ReadLine();
             int indexPrvni = Array.IndexOf(Stanice, prvniStanice);
