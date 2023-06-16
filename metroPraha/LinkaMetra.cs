@@ -58,6 +58,7 @@ namespace metroPraha
         public void CasCesty()
         {
             VypisVsechnyStanice();
+            Console.WriteLine("************");
             Console.WriteLine("Vyber 1. stanici");
             string prvniStanice = Console.ReadLine();
             int indexPrvni = Array.IndexOf(Stanice, prvniStanice);
